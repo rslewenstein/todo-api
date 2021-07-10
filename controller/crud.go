@@ -8,7 +8,7 @@ import (
 	"todo-api/views"
 )
 
-func create() http.HandlerFunc {
+func crud() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == http.MethodPost {
 			data := views.PostRequest{}
