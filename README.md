@@ -8,3 +8,9 @@ localhost:3000/
     "name": "zzzzz",
     "todo": "xxxxxxx"
 }
+
+## Delete Method(DELETE)
+localhost:3000/name
+
+## ReadByName Method(GET)
+localhost:3000/?name=any_name
